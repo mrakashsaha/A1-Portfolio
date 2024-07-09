@@ -1,0 +1,65 @@
+/* Importing font from googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Resseting Margin & Padding */
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+/* Setting default font for webpage */
+
+body {
+    font-family: "Azeret Mono", monospace;
+    color:rgb(13, 19, 33);
+}
+
+
+
+
+
+/* ------Common CSS Properity Start here ---------*/
+
+.smart-container {
+    width:79.16%;
+    margin:0 auto;
+}
+
+
+
+
+/* ------Common CSS Properity End here------ */
+
+
+
+
+/*NavBar CSS */
+header>nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+       
+}
+
+header>nav>.logo {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+header>nav>.download-btn>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color:rgb(13, 19, 33);
+    border:1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 17px 24px
+}
+
+.nav-container {
+    margin-top:50px;
+}
