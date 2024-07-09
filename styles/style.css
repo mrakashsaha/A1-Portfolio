@@ -63,3 +63,73 @@ header>nav>.download-btn>a {
 .nav-container {
     margin-top:50px;
 }
+
+
+
+/* Hero Section Start Here */
+.hero {
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:47px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.avatar {
+    margin-top:26px;
+}
+
+.headline {
+    max-width: 69.30%;
+}
+
+.headline h2 {
+
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-top: 32px;
+    
+}
+
+.headline-description  {
+    max-width:59.16%;
+    margin-top:24px;
+
+}
+.headline-description p {
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+.contact-btn {
+
+    margin:44px 0px;
+
+}
+
+.contact-btn a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    padding: 21px 24px;
+
+}
