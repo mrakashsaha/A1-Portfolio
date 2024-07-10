@@ -1,14 +1,14 @@
 /* Importing font from googlefont */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Resseting Margin & Padding */
+/* Resetting Margin & Padding */
 * {
     margin:0px;
     padding:0px;
 }
 
 
-/* Setting default font for webpage */
+/* Setting default font and color for webpage */
 
 body {
     font-family: "Azeret Mono", monospace;
